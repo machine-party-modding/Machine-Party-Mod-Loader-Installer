@@ -11,7 +11,7 @@ Name: "{app}\mods"
 
 [Files]
 Source: "godot-mod-loader\*"; DestDir: "{app}\addons"; Flags: recursesubdirs createallsubdirs
-Source: "{app}\Machine Party.pck"; DestDir: "{app}"; DestName: "Machine Party-vanilla.pck"; Flags: external
+Source: "{app}\Machine Party.pck"; DestDir: "{app}"; DestName: "Machine Party-vanilla.pck"; Flags: external skipifsourcedoesntexist onlyifdoesntexist
 Source: "Machine Party.pck"; DestDir: "{app}"; Flags: ignoreversion overwritereadonly
 
 [Run]
