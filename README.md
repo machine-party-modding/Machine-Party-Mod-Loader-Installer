@@ -30,7 +30,9 @@ Run the installer and input your game folder. The installer will create a `Machi
 4. Shortcut also makes toggling between vanilla and modded much easier
 
 ### Common issues
+
 **Modded doesn't work**
+
 Check your game folder to see if you have the `mods` folder or `Machine Party__modded.pck` file. If not, you likely installed to the wrong folder. Check the file location of the `Machine Party Modded` shortcut to find the uninstaller, then reinstall.
 
 
