@@ -1,0 +1,1 @@
+.\xdelta3.exe -S none -f -e -s '.\Machine Party.pck' '.\Machine Party__modded.pck' '../vanilla-to-modded.xdelta'
