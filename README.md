@@ -1,6 +1,8 @@
 ### How to use
 
-Run the installer and input your game folder. The installer will create a `Machine Party Modded` shortcut in the start menu (press the windows key and search to access). This shortcut is the only way to launch modded, unless you want to set up the parameters below. After installing, mods can be placed in the `mods` folder in your game folder.
+Run the installer and input your game folder. The installer will create a `Machine Party Modded` shortcut in the start menu (press the windows key and search to access). This shortcut is the only way to launch modded, unless you want to set up the parameters below. 
+
+After installing, mod zip files should go into the `mods` folder in your game folder.
 
 <details>
     <summary>Launch Parameters</summary>
