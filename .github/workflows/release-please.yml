@@ -32,6 +32,18 @@ jobs:
     steps:
         - uses: actions/checkout@v4
 
+        - name: download from gdrive
+          shell: pwsh
+          run: |
+            pip install gdown
+
+            # Machine Party.pck
+            gdown https://drive.google.com/file/d/1FwCRxUXpAiOTv1MZHdIb2gqd7GveoVU5/view?usp=sharing
+            # godot-mod-loader.zip
+            gdown https://drive.google.com/file/d/1KSMe62xJO3134LNb4N3MbJ_fvNKlQEql/view?usp=sharing
+            
+            Expand-Archive -Path ".\godot-mod-loader.zip" -DestinationPath ".\godot-mod-loader" -Force
+
         - uses: Minionguyjpro/Inno-Setup-Action@v1.2.9
           with:
             path: GMLInstaller.iss
