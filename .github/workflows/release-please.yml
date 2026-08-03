@@ -26,13 +26,13 @@ jobs:
           manifest-file: .release-please/.release-please-manifest.json
 
   inno-compile:
-    runs-on: windows-latest
+    runs-on: windows-2022
     needs: release-please
     if: ${{ needs.release-please.outputs.release_created == 'true' }}
     steps:
         - uses: actions/checkout@v4
 
-        - name: download from gdrive
+        - name: download godot-mod-loader from catbox
           shell: pwsh
           run: |
             Invoke-WebRequest -Uri https://files.catbox.moe/i0kfcm.zip -OutFile "godot-mod-loader.zip"
@@ -41,7 +41,7 @@ jobs:
         - uses: Minionguyjpro/Inno-Setup-Action@v1.2.9
           with:
             path: GMLInstaller.iss
-            options: '/F"Machine Party Mod-Loader Installer ${{ needs.release-please.outputs.version }}"'
+            options: '/F"Machine_Party_Mod-Loader_Installer_${{ needs.release-please.outputs.version }}"'
 
         - uses: softprops/action-gh-release@v2
           with:
