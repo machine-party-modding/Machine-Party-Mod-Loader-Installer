@@ -1,3 +1,6 @@
+*Not AI Generated*
+
+
 ### How to use
 
 Run the installer and input your game folder. The installer will create a `Machine Party Modded` shortcut in the start menu (press the windows key and search to access). This shortcut is the only way to launch modded, unless you want to set up the parameters below. 
