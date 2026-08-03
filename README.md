@@ -1,6 +1,6 @@
-**How to use**
+### How to use
 
-Run the installer. The installer will create a `Machine Party Modded` shortcut in the start menu (press the windows key and search to access). This shortcut is the only way to launch modded, unless you want to set up the parameters below.
+Run the installer and input your game folder. The installer will create a `Machine Party Modded` shortcut in the start menu (press the windows key and search to access). This shortcut is the only way to launch modded, unless you want to set up the parameters below. After installing, mods can be placed in the `mods` folder in your game folder.
 
 <details>
     <summary>Launch Parameters</summary>
@@ -16,7 +16,7 @@ Run the installer. The installer will create a `Machine Party Modded` shortcut i
 > <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4481bd18-7785-4219-8ee4-e513dc297613" />
 
 
-**Why does this exist?**
+### Why does this exist?
 1. As of writing, [godot-mod-loader](https://github.com/GodotModding/godot-mod-loader) has 3 major errors when installed into Machine Party.
 
     A. The version of GDRE bundled with the loader is [outdated (issue #577)](https://github.com/GodotModding/godot-mod-loader/issues/577), resulting in it failing to open the game's `.pck` file.
@@ -29,5 +29,10 @@ Run the installer. The installer will create a `Machine Party Modded` shortcut i
 
 4. Shortcut also makes toggling between vanilla and modded much easier
 
-**known issues**
+### Common issues
+**Modded doesn't work**
+Check your game folder to see if you have the `mods` folder or `Machine Party__modded.pck` file. If not, you likely installed to the wrong folder. Check the file location of the `Machine Party Modded` shortcut to find the uninstaller, then reinstall.
+
+
+### Known issues
 - steam API (overlay) doesn't work when launching modded
