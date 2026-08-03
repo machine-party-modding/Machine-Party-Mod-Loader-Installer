@@ -11,8 +11,8 @@ Name: "{app}\mods"
 
 [Files]
 Source: "godot-mod-loader\*"; DestDir: "{app}\addons"; Flags: recursesubdirs createallsubdirs
-Source: "{app}\Machine Party.pck"; DestDir: "{app}"; DestName: "Machine Party-vanilla.pck"; Flags: external skipifsourcedoesntexist onlyifdoesntexist
+Source: "{app}\Machine Party.pck"; DestDir: "{app}"; DestName: "Machine Party-vanilla.pck"; Flags: external
 Source: "Machine Party.pck"; DestDir: "{app}"; Flags: ignoreversion overwritereadonly
 
 [Run]
-Filename: "{app}\Machine Party.exe"; Parameters: "--script 'addons/mod_loader/mod_loader_setup.gd'"
+Filename: "{app}\Machine Party.exe"; Parameters: "--script 'addons/mod_loader/mod_loader_setup.gd'"; Flags: hidewizard logoutput
