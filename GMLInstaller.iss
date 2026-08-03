@@ -19,4 +19,4 @@ Source: "godot-mod-loader\*"; DestDir: "{app}\addons"; Flags: recursesubdirs cre
 Filename: "{tmp}\xdelta3decode.exe"; Parameters: "-d -s ""{app}\Machine Party.pck"" ""{tmp}\vanilla-to-modded.xdelta"" ""{app}\Machine Party-modded.pck"""; Flags: runhidden
 
 [Icons]
-Name: "{group}\Machine Party Modded"; Filename: "{app}\Machine Party.exe"; WorkingDir: "{app}"; Parameters: "--main-pack ""Machine Party-modded.pck""";
+Name: "{group}\Machine Party Modded"; Filename: "{app}\Machine Party.exe"; WorkingDir: "{app}"; Parameters: "--main-pack ""Machine Party-modded.pck""--script ""addons/mod_loader/mod_loader_setup.gd""";
