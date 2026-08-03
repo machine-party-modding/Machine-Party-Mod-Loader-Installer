@@ -1,14 +1,20 @@
 **How to use**
 
-Run the installer. The installer will create a "Machine Party Modded" shortcut in the start menu (press the windows key to access). This shortcut is the only way to launch modded, unless you want to set up the parameters below.
+Run the installer. The installer will create a `Machine Party Modded` shortcut in the start menu (press the windows key and search to access). This shortcut is the only way to launch modded, unless you want to set up the parameters below.
 
 <details>
     <summary>Launch Parameters</summary>
 
     (assuming this runs from game dir)
-    `--main-pack 'Machine Party-modded.pck'--script 'addons/mod_loader/mod_loader_setup.gd'`
+    `--main-pack 'Machine Party-modded.pck'`
 
 </details>
+
+> [!WARNING]
+> When running certain mods for the first time, you might be prompted to restart.
+> Do not use the restart button shown. Restart the game through the start menu shortcut.
+> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4481bd18-7785-4219-8ee4-e513dc297613" />
+
 
 **Why does this exist?**
 1. As of writing, [godot-mod-loader](https://github.com/GodotModding/godot-mod-loader) has 3 major errors when installed into Machine Party.
