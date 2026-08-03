@@ -30,4 +30,4 @@ Run the installer. The installer will create a `Machine Party Modded` shortcut i
 4. Shortcut also makes toggling between vanilla and modded much easier
 
 **known issues**
-- steam API doesn't work when launching modded
+- steam API (overlay) doesn't work when launching modded
