@@ -33,7 +33,7 @@ Run the installer and input your game folder. The installer will create a `Machi
 
 **Modded doesn't work**
 
-Check your game folder to see if you have the `mods` folder or `Machine Party__modded.pck` file. If not, you likely installed to the wrong folder. Check the file location of the `Machine Party Modded` shortcut to find the uninstaller, then reinstall.
+Check your game folder to see if you have the `mods` folder or `Machine Party__modded.pck` file. If not, you likely installed to the wrong folder. Check the file location of the `Machine Party Modded` shortcut to find the uninstaller, then try installing again. [Use the `Browse Local Files` button](https://www.youtube.com/watch?v=_ETOk98WN1A) if you aren't sure where your game folder is.
 
 
 ### Known issues
