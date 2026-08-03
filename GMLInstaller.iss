@@ -8,12 +8,10 @@ DirExistsWarning=no
 DisableReadyPage=yes
 
 [Dirs]
-Name: "{app}\addons"
 Name: "{app}\mods"
 
 [Files]
 Source: "temp\*"; DestDir: "{tmp}"
-Source: "godot-mod-loader\*"; DestDir: "{app}\addons"; Flags: recursesubdirs createallsubdirs
 
 [Run]
 Filename: "{tmp}\xdelta3decode.exe"; Parameters: "-d -s ""{app}\Machine Party.pck"" ""{tmp}\vanilla-to-modded.xdelta"" ""{app}\Machine Party__modded.pck"""; Flags: runhidden

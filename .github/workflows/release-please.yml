@@ -30,13 +30,7 @@ jobs:
     if: ${{ needs.release-please.outputs.release_created == 'true' }}
     steps:
         - uses: actions/checkout@v4
-
-        - name: download godot-mod-loader from catbox
-          shell: pwsh
-          run: |
-            Invoke-WebRequest -Uri https://files.catbox.moe/i0kfcm.zip -OutFile "godot-mod-loader.zip"
-            Expand-Archive -Path ".\godot-mod-loader.zip" -DestinationPath ".\godot-mod-loader" -Force
-
+        
         - uses: Minionguyjpro/Inno-Setup-Action@v1.2.9
           with:
             path: GMLInstaller.iss
