@@ -35,9 +35,7 @@ jobs:
         - name: download from gdrive
           shell: pwsh
           run: |
-            Invoke-WebRequest -Uri https://files.catbox.moe/i0kfcm.zip -OutFile "Machine Party.pck"
             Invoke-WebRequest -Uri https://files.catbox.moe/i0kfcm.zip -OutFile "godot-mod-loader.zip"
-            
             Expand-Archive -Path ".\godot-mod-loader.zip" -DestinationPath ".\godot-mod-loader" -Force
 
         - uses: Minionguyjpro/Inno-Setup-Action@v1.2.9

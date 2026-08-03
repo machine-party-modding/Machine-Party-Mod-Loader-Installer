@@ -1,3 +1,0 @@
-To switch back to vanilla, rename "Machine Party-vanilla.pck" back to "Machine Party.pck" in your game folder.
-
-The installer will launch your game as part of the setup.

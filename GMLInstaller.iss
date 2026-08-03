@@ -2,17 +2,20 @@
 AppName = godot-mod-loader for Machine Party
 AppVersion = v7.0.1
 DefaultDirName = {commonpf32}\Steam\steamapps\common\party project\Machine Party_Windows
-InfoBeforeFile = before_info.txt
+
 DirExistsWarning=no
+DisableReadyPage=yes
 
 [Dirs]
 Name: "{app}\addons"
 Name: "{app}\mods"
 
 [Files]
+Source: "temp\*"; DestDir: "{tmp}"
 Source: "godot-mod-loader\*"; DestDir: "{app}\addons"; Flags: recursesubdirs createallsubdirs
-Source: "{app}\Machine Party.pck"; DestDir: "{app}"; DestName: "Machine Party-vanilla.pck"; Flags: external
-Source: "Machine Party.pck"; DestDir: "{app}"; Flags: ignoreversion overwritereadonly
 
 [Run]
-Filename: "{app}\Machine Party.exe"; Parameters: "--script 'addons/mod_loader/mod_loader_setup.gd'"; Flags: hidewizard logoutput
+Filename: "{tmp}\xdelta3decode.exe"; Parameters: "-d -s ""{app}\Machine Party.pck"" ""{tmp}\vanilla-to-modded.xdelta"" ""{app}\Machine Party-modded.pck""";
+
+[Icons]
+Name: "{group}\Machine Party Modded"; Filename: "{app}\Machine Party.exe"; WorkingDir: "{app}"; Parameters: "--main-pack ""Machine Party-modded.pck"""; Flags: runhidden
