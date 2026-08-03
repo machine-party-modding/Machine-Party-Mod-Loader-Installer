@@ -1,5 +1,0 @@
-The game pulls data from the file named "Machine Party.pck". 
-
-The mod loader requires a special "Machine Party.pck", which this installer will create. 
-
-To switch back to vanilla, rename "Machine Party-vanilla.pck" back to "Machine Party.pck".
