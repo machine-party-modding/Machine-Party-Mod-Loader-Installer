@@ -10,14 +10,11 @@ https://github.com/user-attachments/assets/42b27724-6d2c-492d-b8a7-a8f289699133
 
 
 <details>
-    
     <summary>Text instructions</summary>
 
-    
     Run the installer and **input your game folder that has the Machine Party `.exe`**. The installer will create a `Machine Party Modded` shortcut in the start menu (press the windows key and search to access). This shortcut is the only way to launch modded. Launching in any other way will give you a vanilla game instance.
     
     After installing, mod zip files should go into the `mods` folder in your game folder.
-
 </details>
 
 
