@@ -5,7 +5,10 @@
 
 **Video instructions**
 
-https://github.com/user-attachments/assets/42b27724-6d2c-492d-b8a7-a8f289699133
+
+https://github.com/user-attachments/assets/85a38f93-981a-4405-9c06-580eedf6e454
+
+
 
 
 **Text instructions**
