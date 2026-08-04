@@ -11,7 +11,7 @@ DisableReadyPage=yes
 Name: "{app}\mods"
 
 [Files]
-Source: "temp\*"; DestDir: "{tmp}"
+Source: "delta\*"; DestDir: "{tmp}"
 
 [Run]
 Filename: "{tmp}\xdelta3decode.exe"; Parameters: "-d -s ""{app}\Machine Party.pck"" ""{tmp}\vanilla-to-modded.xdelta"" ""{app}\Machine Party__modded.pck"""; Flags: runhidden
