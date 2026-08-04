@@ -3,22 +3,29 @@
 
 ### How to use
 
-Run the installer and input your game folder. The installer will create a `Machine Party Modded` shortcut in the start menu (press the windows key and search to access). This shortcut is the only way to launch modded, unless you want to set up the parameters below. 
 
-After installing, mod zip files should go into the `mods` folder in your game folder.
+
+https://github.com/user-attachments/assets/42b27724-6d2c-492d-b8a7-a8f289699133
+
+
 
 <details>
-    <summary>Launch Parameters</summary>
+    <summary>Text instructions</summary>
 
-    (assuming this runs from game dir)
-    `--main-pack 'Machine Party-modded.pck'`
+    
+    Run the installer and **input your game folder that has the Machine Party `.exe`**. The installer will create a `Machine Party Modded` shortcut in the start menu (press the windows key and search to access). This shortcut is the only way to launch modded, unless you want to set up the parameters below. 
+    
+    After installing, mod zip files should go into the `mods` folder in your game folder.
+    
+    <details>
+        <summary>Launch Parameters</summary>
+    
+        (assuming this runs from game dir)
+        `--main-pack 'Machine Party-modded.pck'`
+    
+    </details>
 
 </details>
-
-> [!WARNING]
-> When running certain mods for the first time, you might be prompted to restart.
-> Do not use the restart button shown. Restart the game through the start menu shortcut.
-> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4481bd18-7785-4219-8ee4-e513dc297613" />
 
 
 ### Why does this exist?
@@ -39,6 +46,7 @@ After installing, mod zip files should go into the `mods` folder in your game fo
 **Modded doesn't work**
 
 Check your game folder to see if you have the `mods` folder or `Machine Party__modded.pck` file. If not, you likely installed to the wrong folder. Check the file location of the `Machine Party Modded` shortcut to find the uninstaller, then try installing again. [Use the `Browse Local Files` button](https://www.youtube.com/watch?v=_ETOk98WN1A) if you aren't sure where your game folder is.
+There is also a more detailed video tutorial here: https://youtu.be/bKLGPkOzQ7Y
 
 
 ### Known issues
