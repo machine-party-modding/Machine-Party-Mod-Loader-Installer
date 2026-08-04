@@ -43,4 +43,5 @@ There is also a more detailed video tutorial here: https://youtu.be/bKLGPkOzQ7Y
 
 
 ### Known issues
+- [virustotal](https://www.virustotal.com/gui/file/6cc1d4afeeb7304e332ae6810fdf946f19a3ecd70f1763492eee8b2e824da6fb/detection) has a couple false positive results
 - steam API (overlay) doesn't work when launching modded
