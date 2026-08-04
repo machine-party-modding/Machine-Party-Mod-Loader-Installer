@@ -5,6 +5,9 @@
 
 **Video instructions**
 
+**YouTube Walkthroughs:**
+- [Spanish](https://youtu.be/dJ32-YxXumU)
+- [Server Browser Mod](https://www.youtube.com/watch?v=bKLGPkOzQ7Y)
 
 https://github.com/user-attachments/assets/85a38f93-981a-4405-9c06-580eedf6e454
 
