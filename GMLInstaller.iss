@@ -13,6 +13,10 @@ Name: "{app}\mods"
 [Files]
 Source: "delta\*"; DestDir: "{tmp}"
 
+[InstallDelete]
+Type: files; Name: "{app}\mod-hooks.zip"
+Type: files; Name: "{app}\Machine Party__modded.pck"
+
 [Run]
 Filename: "{tmp}\xdelta3decode.exe"; Parameters: "-d -s ""{app}\Machine Party.pck"" ""{tmp}\vanilla-to-modded.xdelta"" ""{app}\Machine Party__modded.pck"""; Flags: runhidden
 
