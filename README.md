@@ -34,13 +34,6 @@ After installing, mod zip files should go into the `mods` folder in your game fo
 
 4. Shortcut also makes toggling between vanilla and modded much easier
 
-### Common issues
-
-**Modded doesn't work**
-
-Check your game folder to see if you have the `mods` folder or `Machine Party__modded.pck` file. If not, you likely installed to the wrong folder. Check the file location of the `Machine Party Modded` shortcut to find the uninstaller, then try installing again. [Use the `Browse Local Files` button](https://www.youtube.com/watch?v=_ETOk98WN1A) if you aren't sure where your game folder is.
-There is also a more detailed video tutorial here: https://youtu.be/bKLGPkOzQ7Y
-
 
 ### Known issues
 - [virustotal](https://www.virustotal.com/gui/file/6cc1d4afeeb7304e332ae6810fdf946f19a3ecd70f1763492eee8b2e824da6fb/detection) has a couple false positive results
