@@ -1,7 +1,5 @@
 *Not AI Generated*
 
-*Installer may be broken temporarily due to the [1.5 update](https://store.steampowered.com/news/app/4108000/view/683009119697766602?l=english)*
-
 
 ### How to use
 
