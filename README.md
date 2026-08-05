@@ -1,5 +1,7 @@
 *Not AI Generated*
 
+*This is mainly for personal use and may not be maintained*
+
 
 ### How to use
 
